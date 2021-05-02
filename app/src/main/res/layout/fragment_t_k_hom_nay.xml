@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TKHomNayFragment">
+
+    <LinearLayout
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="Hôm nay"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp"
+            android:text="Tổng thu : "
+            android:background="@color/colorPrimary"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_tonghn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="0 VND"
+            android:layout_marginLeft="16dp"
+            android:textSize="23sp"/>
+        <TextView
+
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp"
+            android:text="Chi tiêu : "
+            android:background="@color/colorPrimary"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_chihn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="0 VND"
+            android:layout_marginLeft="16dp"
+            android:textSize="23sp"/>
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="23sp"
+            android:text="Số dư : "
+            android:background="@color/colorPrimary"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_marginTop="8dp"
+            android:id="@+id/tv_duhn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="0 VND"
+            android:layout_marginLeft="16dp"
+            android:textSize="23sp"/>
+    </LinearLayout>
+
+</FrameLayout>
