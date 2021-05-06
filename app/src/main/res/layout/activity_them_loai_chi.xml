@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="vn.poly.quanlychitieu.ThemLoaiChiActivity">
+    tools:context="vn.vietanh.quanlychitieu.ThemLoaiChiActivity">
 
     <include
         android:id="@+id/toolbarThemLoaiChi"

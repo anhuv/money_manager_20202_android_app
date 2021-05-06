@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="vn.poly.quanlychitieu">
+    package="vn.vietanh.quanlychitieu">
 
     <application
         tools:replace="android:icon"
@@ -12,21 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="vn.poly.quanlychitieu.ThemLoaiChiActivity" android:screenOrientation="portrait"/>
-        <activity android:name="vn.poly.quanlychitieu.ListLoaiChiActivity" android:screenOrientation="portrait" />
-        <activity android:name="vn.poly.quanlychitieu.ChiTieuActivity" android:screenOrientation="portrait" />
-        <activity android:name="vn.poly.quanlychitieu.TimKiemActivity"  android:screenOrientation="portrait"/>
-        <activity android:name="vn.poly.quanlychitieu.SplashScreenActivity" android:screenOrientation="portrait">
+        <activity android:name="vn.vietanh.quanlychitieu.ThemLoaiChiActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.vietanh.quanlychitieu.ListLoaiChiActivity" android:screenOrientation="portrait" />
+        <activity android:name="vn.vietanh.quanlychitieu.ChiTieuActivity" android:screenOrientation="portrait" />
+        <activity android:name="vn.vietanh.quanlychitieu.TimKiemActivity"  android:screenOrientation="portrait"/>
+        <activity android:name="vn.vietanh.quanlychitieu.SplashScreenActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="vn.poly.quanlychitieu.ThemLoaiThuActivity" android:screenOrientation="portrait"/>
-        <activity android:name="vn.poly.quanlychitieu.ListLoaiThuActivity" android:screenOrientation="portrait"/>
-        <activity android:name="vn.poly.quanlychitieu.ThuNhapActivity" android:screenOrientation="portrait"/>
-        <activity android:name="vn.poly.quanlychitieu.MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.vietanh.quanlychitieu.ThemLoaiThuActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.vietanh.quanlychitieu.ListLoaiThuActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.vietanh.quanlychitieu.ThuNhapActivity" android:screenOrientation="portrait"/>
+        <activity android:name="vn.vietanh.quanlychitieu.MainActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:background="@color/colorWhite"
     android:layout_height="match_parent"
-    tools:context="vn.poly.quanlychitieu.fragment.TimThuNhapFragment">
+    tools:context="vn.vietanh.quanlychitieu.fragment.TimThuNhapFragment">
 
   <RelativeLayout
       android:layout_width="match_parent"
